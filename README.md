@@ -1,9 +1,3 @@
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-
-<!-- PROJECT LOGO -->
 <br />
 <p align="center">
   
@@ -28,7 +22,7 @@ We will build a real-time system to detect whether the person on the webcam is w
 
 The dataset we are working on consists of 1376 images with 690 images containing images of people wearing masks and 686 images with people without masks.
 
-Download the dataset: https://data-flair.training/blogs/download-face-mask-data/
+Download the dataset: [Dataset](https://data-flair.training/blogs/download-face-mask-data/)
 
 ### Built With
 
@@ -67,7 +61,9 @@ Run the training:
   ```
 
 Run the test:
-test the results of face mask detector model using OpenCV
+test the results of face mask detector model using OpenCV:
+OpenCV comes with a trainer as well as face detector. we going to use "Haar-cascade" trained model using
+"haarcascade_frontalface_default.xml"
 
 - Python
   ```sh
