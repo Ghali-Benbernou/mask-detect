@@ -81,8 +81,8 @@ Then run the test on your computer after you download the best trained model fro
 
 ## Demo
 
-![](img/mask_test_1.png)
-![](img/mask_test_2.png)
+![without_mask](/img/mask_test_1.png)
+![mask](/img/mask_test_2.png)
 
 ## Contributing
 
